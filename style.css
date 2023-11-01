@@ -1,0 +1,27 @@
+/* Add custom styling for sticky sidebar */
+.sticky-sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 70px;
+  /* margin-top: 70px; */
+  /* overflow: hidden; */
+}
+
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+ 
+
+}
+.navbar {
+  background-color: lightblue;
+}
+
+#about , #features, #pricing, #testimonials{
+  background-color: lightgray; /* Change this to your desired color */
+  text-align:center;
+  padding:5px 10px 10px 5px;
+  gap:5px;
+  /* text-align:justify; */
+}
